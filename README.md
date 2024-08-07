@@ -1,6 +1,19 @@
-# Building Recommendation System with Deep Reinforcement Learning and Neo4j
+🎬🤖 Deep dive into the world of Deep Reinforcement Learning (DRL).
+🧠 The post explores an approach to integrate Reinforcement Learning with graph-based machine learning for dynamic movie recommendations.
 
-In this tutorial We will be building a movie recommendantion enine leveraging a blend of graph-based machine learning and deep reinforcement learning (DRL). This post details an approach using [Neo4j](https://neo4j.com) graph embeddings, generated through Node2Vec algorithm, combined with a PyTorch-based Deep Q-Network (DQN) for dynamic movie recommendations.
-We will be using the [DVD Rental Database](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/) that we have used in a couple of posts before. We showed how we can download and populate the data into Neo4j database in this previous [tutorial](https://minimatech.org/from-relational-to-neo4j/). We will also be leveraging the [Graph Data Science](https://neo4j.com/product/graph-data-science/) (GDS) library in Neo4j to get the Node2Vec embeddings.
+This approach combines several techniques:
 
-Let's quickly try to do some imports and do quick queries on the database to make sure everything is ready. We will query the labels of nodes and types of the relationships.
+Node2Vec embeddings with Neo4j's Graph Data Science library 📊
+Deep Q-Networks (DQN) for value-based learning 🎯
+Clever handling of high-dimensional action spaces using (graph) embeddings 🚀
+Experience replay for stable learning 🔄
+
+Key highlights:
+
+🌐 Preservation of complex interconnected graph structures
+📈 Scalable method for large and high-dimensional datasets
+🔮 Adaptive learning through (simulated) user interactions
+
+🔬 Tech stack: Neo4j, PyTorch
+
+This work offers a somewhat more dynamic and context-aware recommendation system that could address some of the challenges of traditional collaborative filtering methods.
